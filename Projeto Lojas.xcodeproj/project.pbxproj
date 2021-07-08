@@ -15,6 +15,7 @@
 		8B4CED6C269567020042A5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4CED6A269567020042A5E2 /* LaunchScreen.storyboard */; };
 		8B4CED77269567030042A5E2 /* Projeto_LojasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED76269567030042A5E2 /* Projeto_LojasTests.swift */; };
 		8B4CED82269567030042A5E2 /* Projeto_LojasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED81269567030042A5E2 /* Projeto_LojasUITests.swift */; };
+		8BEF45E8269771C3001E9E14 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8B4CED7D269567030042A5E2 /* Projeto LojasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projeto LojasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4CED81269567030042A5E2 /* Projeto_LojasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_LojasUITests.swift; sourceTree = "<group>"; };
 		8B4CED83269567030042A5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8B4CED5F269566F10042A5E2 /* AppDelegate.swift */,
 				8B4CED61269566F10042A5E2 /* SceneDelegate.swift */,
 				8B4CED63269566F10042A5E2 /* LoginViewController.swift */,
+				8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */,
 				8B4CED65269566F10042A5E2 /* Main.storyboard */,
 				8B4CED68269567020042A5E2 /* Assets.xcassets */,
 				8B4CED6A269567020042A5E2 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				8B4CED64269566F10042A5E2 /* LoginViewController.swift in Sources */,
 				8B4CED60269566F10042A5E2 /* AppDelegate.swift in Sources */,
+				8BEF45E8269771C3001E9E14 /* PerfilViewController.swift in Sources */,
 				8B4CED62269566F10042A5E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
