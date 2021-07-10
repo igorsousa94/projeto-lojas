@@ -1,43 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2kj-DB-vbl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2kj-DB-vbl">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="Hzc-00-RS9">
-            <objects>
-                <viewController id="8Wv-a3-Osd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ztu-wP-ea7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3o-gc-wh2">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="IvS-r9-70S" kind="show" id="jhp-fj-xQ8"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="UEo-r2-rpy"/>
-                        <color key="backgroundColor" systemColor="systemRedColor"/>
-                        <constraints>
-                            <constraint firstItem="Z3o-gc-wh2" firstAttribute="centerY" secondItem="Ztu-wP-ea7" secondAttribute="centerY" id="K4F-gb-Wu6"/>
-                            <constraint firstItem="Z3o-gc-wh2" firstAttribute="centerX" secondItem="Ztu-wP-ea7" secondAttribute="centerX" id="KYd-x6-ibx"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="IG3-0Y-VeA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t1f-NJ-eEe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-10.144927536231885" y="30.803571428571427"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="xjI-Kg-PmA">
             <objects>
@@ -66,7 +37,7 @@
                                 <rect key="frame" x="184" y="433" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="5K2-G2-Su9" kind="show" id="SgW-bQ-knX"/>
+                                    <segue destination="fAk-kH-dp8" kind="show" id="EG8-Mj-Sx6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -83,21 +54,204 @@
             </objects>
             <point key="canvasLocation" x="-10.144927536231885" y="-623.4375"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="XpO-Xj-O7f">
+        <!--Table View Controller-->
+        <scene sceneID="xN3-2p-JBF">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="5K2-G2-Su9" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4K0-5i-F4H">
+                <tableViewController id="DEQ-G9-Vey" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xFy-ac-6fN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="fWA-ae-4bJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="FKz-90-cHI"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zOo-h7-UFv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <sections>
+                            <tableViewSection id="In3-xc-yfi">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="0Ie-gK-qUC">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Ie-gK-qUC" id="ri1-g1-Pvu">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" id="tOB-8L-TWz">
+                                                    <rect key="frame" x="27" y="20" width="63" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header-bahianinho" translatesAutoresizingMaskIntoConstraints="NO" id="4e2-oM-dZe">
+                                                            <rect key="frame" x="9" y="3" width="45" height="54"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="4e2-oM-dZe" firstAttribute="leading" secondItem="tOB-8L-TWz" secondAttribute="leading" constant="9" id="728-av-o3p"/>
+                                                        <constraint firstItem="4e2-oM-dZe" firstAttribute="top" secondItem="tOB-8L-TWz" secondAttribute="top" constant="3" id="bs0-qe-2vF"/>
+                                                        <constraint firstAttribute="bottom" secondItem="4e2-oM-dZe" secondAttribute="bottom" constant="4" id="gDm-qx-Fo4"/>
+                                                        <constraint firstAttribute="trailing" secondItem="4e2-oM-dZe" secondAttribute="trailing" constant="9" id="sYT-EK-YHs"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3f-qu-pBV">
+                                                    <rect key="frame" x="118" y="20" width="100" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Sl6-5z-mYY">
+                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="LRV-IA-dKs">
+                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="h2G-7I-Jmn">
+                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xGw-ia-Y7h">
+                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="LRV-IA-dKs" secondAttribute="bottom" constant="8" id="GDL-c5-Z5z"/>
+                                                <constraint firstAttribute="trailing" secondItem="Sl6-5z-mYY" secondAttribute="trailing" constant="13" id="LSx-Yp-UUB"/>
+                                                <constraint firstItem="LRV-IA-dKs" firstAttribute="leading" secondItem="tOB-8L-TWz" secondAttribute="trailing" constant="28" id="Pql-da-JAJ"/>
+                                                <constraint firstItem="Sl6-5z-mYY" firstAttribute="top" secondItem="ri1-g1-Pvu" secondAttribute="top" constant="12.5" id="XTh-NK-Jv9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="IvS-r9-70S" kind="show" id="ce3-ef-Bzr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="GPg-hI-cdH">
+                                        <rect key="frame" x="0.0" y="128" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GPg-hI-cdH" id="kv6-Ff-a9v">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" id="nsd-6v-yJe">
+                                                    <rect key="frame" x="27" y="20" width="63" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header-bahianinho" translatesAutoresizingMaskIntoConstraints="NO" id="nC8-TL-8Go">
+                                                            <rect key="frame" x="9" y="3" width="45" height="54"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="nC8-TL-8Go" secondAttribute="trailing" constant="9" id="aLw-Th-nph"/>
+                                                        <constraint firstItem="nC8-TL-8Go" firstAttribute="top" secondItem="nsd-6v-yJe" secondAttribute="top" constant="3" id="lZK-GF-TnS"/>
+                                                        <constraint firstAttribute="bottom" secondItem="nC8-TL-8Go" secondAttribute="bottom" constant="4" id="nsm-BC-evn"/>
+                                                        <constraint firstItem="nC8-TL-8Go" firstAttribute="leading" secondItem="nsd-6v-yJe" secondAttribute="leading" constant="9" id="vyT-yh-YEM"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiX-h9-klv">
+                                                    <rect key="frame" x="118" y="20" width="100" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZK5-Nx-eTN">
+                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="1Fg-bh-tbt">
+                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="d80-hO-0gn">
+                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bLH-Kq-ki8">
+                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="1Fg-bh-tbt" firstAttribute="leading" secondItem="nsd-6v-yJe" secondAttribute="trailing" constant="28" id="4s2-j4-dI7"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="1Fg-bh-tbt" secondAttribute="bottom" constant="8" id="5Zb-VP-gnL"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZK5-Nx-eTN" secondAttribute="trailing" constant="13" id="ix7-Tw-jl1"/>
+                                                <constraint firstItem="ZK5-Nx-eTN" firstAttribute="top" secondItem="kv6-Ff-a9v" secondAttribute="top" constant="12.5" id="rfW-g5-50R"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="IvS-r9-70S" kind="show" id="3DZ-XP-oQQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="GKR-GP-mZi">
+                                        <rect key="frame" x="0.0" y="228" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GKR-GP-mZi" id="FkP-CR-t89">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" id="zYY-oA-HQj">
+                                                    <rect key="frame" x="27" y="20" width="63" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header-bahianinho" translatesAutoresizingMaskIntoConstraints="NO" id="CeH-8K-6mF">
+                                                            <rect key="frame" x="9" y="3" width="45" height="54"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="CeH-8K-6mF" secondAttribute="bottom" constant="4" id="11U-bA-Gr0"/>
+                                                        <constraint firstAttribute="trailing" secondItem="CeH-8K-6mF" secondAttribute="trailing" constant="9" id="3vL-ay-mDT"/>
+                                                        <constraint firstItem="CeH-8K-6mF" firstAttribute="leading" secondItem="zYY-oA-HQj" secondAttribute="leading" constant="9" id="DDm-wA-Pjf"/>
+                                                        <constraint firstItem="CeH-8K-6mF" firstAttribute="top" secondItem="zYY-oA-HQj" secondAttribute="top" constant="3" id="PIV-hp-qO7"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcm-Uo-PQh">
+                                                    <rect key="frame" x="118" y="20" width="100" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hfh-md-Pdi">
+                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="1lU-fd-2x5">
+                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VIA-bN-uJd">
+                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="T1M-Qg-IMC">
+                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="1lU-fd-2x5" firstAttribute="leading" secondItem="zYY-oA-HQj" secondAttribute="trailing" constant="28" id="6jN-qi-JiH"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="1lU-fd-2x5" secondAttribute="bottom" constant="8" id="AaS-aI-ctV"/>
+                                                <constraint firstAttribute="trailing" secondItem="hfh-md-Pdi" secondAttribute="trailing" constant="13" id="C9M-v8-Csv"/>
+                                                <constraint firstItem="hfh-md-Pdi" firstAttribute="top" secondItem="FkP-CR-t89" secondAttribute="top" constant="12.5" id="OpM-2b-Thu"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="DEQ-G9-Vey" id="Jir-Qt-cqH"/>
+                            <outlet property="delegate" destination="DEQ-G9-Vey" id="B6C-z2-QDl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="7rA-cA-0Yr"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QcV-hJ-jEs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="900.00000000000011" y="-623.4375"/>
+            <point key="canvasLocation" x="-10" y="31"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="T36-o9-7aN">
@@ -288,7 +442,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="8Wv-a3-Osd" kind="relationship" relationship="rootViewController" id="Hbl-cd-em3"/>
+                        <segue destination="DEQ-G9-Vey" kind="relationship" relationship="rootViewController" id="ubU-St-a25"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVc-qe-RKs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -333,9 +487,209 @@
             </objects>
             <point key="canvasLocation" x="-920.28985507246387" y="765.40178571428567"/>
         </scene>
+        <!--Lista de jogos-->
+        <scene sceneID="66b-6U-AZK">
+            <objects>
+                <tableViewController hidesBottomBarWhenPushed="YES" id="fAk-kH-dp8" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Th8-hx-C0o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="2rC-zX-tOa">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Bt3-i5-GCy">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bt3-i5-GCy" id="bwz-am-3Nu">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" id="wyv-aw-zrI">
+                                                    <rect key="frame" x="27" y="20" width="63" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header-bahianinho" translatesAutoresizingMaskIntoConstraints="NO" id="5oq-IH-YjN">
+                                                            <rect key="frame" x="9" y="3" width="45" height="54"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="5oq-IH-YjN" secondAttribute="trailing" constant="9" id="4ki-EP-KVn"/>
+                                                        <constraint firstAttribute="bottom" secondItem="5oq-IH-YjN" secondAttribute="bottom" constant="4" id="5TF-ck-XWQ"/>
+                                                        <constraint firstItem="5oq-IH-YjN" firstAttribute="top" secondItem="wyv-aw-zrI" secondAttribute="top" constant="3" id="W8q-hs-qnT"/>
+                                                        <constraint firstItem="5oq-IH-YjN" firstAttribute="leading" secondItem="wyv-aw-zrI" secondAttribute="leading" constant="9" id="dSY-11-3TU"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inL-VI-PVT">
+                                                    <rect key="frame" x="118" y="20" width="100" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lae-iv-5FS">
+                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="gLc-OC-YMB">
+                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1xN-VW-6JC">
+                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="227-Lt-sVS">
+                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gLc-OC-YMB" firstAttribute="leading" secondItem="wyv-aw-zrI" secondAttribute="trailing" constant="28" id="D24-yN-a9z"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="gLc-OC-YMB" secondAttribute="bottom" constant="8" id="YR6-ri-CZ5"/>
+                                                <constraint firstAttribute="trailing" secondItem="lae-iv-5FS" secondAttribute="trailing" constant="13" id="e83-mI-t4X"/>
+                                                <constraint firstItem="lae-iv-5FS" firstAttribute="top" secondItem="bwz-am-3Nu" secondAttribute="top" constant="12.5" id="fj5-fz-Hvy"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="ZtU-h1-hso">
+                                        <rect key="frame" x="0.0" y="128" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZtU-h1-hso" id="4gk-OD-GDA">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" id="b4O-L6-k2T">
+                                                    <rect key="frame" x="27" y="20" width="63" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header-bahianinho" translatesAutoresizingMaskIntoConstraints="NO" id="r7d-1W-oZL">
+                                                            <rect key="frame" x="9" y="3" width="45" height="54"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="r7d-1W-oZL" firstAttribute="leading" secondItem="b4O-L6-k2T" secondAttribute="leading" constant="9" id="SUh-AG-6d0"/>
+                                                        <constraint firstAttribute="trailing" secondItem="r7d-1W-oZL" secondAttribute="trailing" constant="9" id="dKZ-Nh-j0f"/>
+                                                        <constraint firstItem="r7d-1W-oZL" firstAttribute="top" secondItem="b4O-L6-k2T" secondAttribute="top" constant="3" id="jxN-e4-As9"/>
+                                                        <constraint firstAttribute="bottom" secondItem="r7d-1W-oZL" secondAttribute="bottom" constant="4" id="pli-dV-7SA"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diD-2c-uxt">
+                                                    <rect key="frame" x="118" y="20" width="100" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wDG-qa-bJI">
+                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Y2S-vo-FgP">
+                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Pgl-Cb-mkL">
+                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AC9-7M-eTU">
+                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Y2S-vo-FgP" secondAttribute="bottom" constant="8" id="1kE-yN-Ghh"/>
+                                                <constraint firstItem="wDG-qa-bJI" firstAttribute="top" secondItem="4gk-OD-GDA" secondAttribute="top" constant="12.5" id="Bl1-Ae-O32"/>
+                                                <constraint firstItem="Y2S-vo-FgP" firstAttribute="leading" secondItem="b4O-L6-k2T" secondAttribute="trailing" constant="28" id="YMB-F3-2xa"/>
+                                                <constraint firstAttribute="trailing" secondItem="wDG-qa-bJI" secondAttribute="trailing" constant="13" id="Yyg-zf-D23"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Dv2-J1-wjf">
+                                        <rect key="frame" x="0.0" y="228" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dv2-J1-wjf" id="713-tR-ilI">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" id="1Wl-p3-Uah">
+                                                    <rect key="frame" x="27" y="20" width="63" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header-bahianinho" translatesAutoresizingMaskIntoConstraints="NO" id="x9j-aM-fLt">
+                                                            <rect key="frame" x="9" y="3" width="45" height="54"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="x9j-aM-fLt" secondAttribute="bottom" constant="4" id="HuU-Ui-8lu"/>
+                                                        <constraint firstAttribute="trailing" secondItem="x9j-aM-fLt" secondAttribute="trailing" constant="9" id="NaS-WU-RQj"/>
+                                                        <constraint firstItem="x9j-aM-fLt" firstAttribute="leading" secondItem="1Wl-p3-Uah" secondAttribute="leading" constant="9" id="Vbe-mQ-kgU"/>
+                                                        <constraint firstItem="x9j-aM-fLt" firstAttribute="top" secondItem="1Wl-p3-Uah" secondAttribute="top" constant="3" id="qPK-ye-MaX"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLa-hO-vA9">
+                                                    <rect key="frame" x="118" y="20" width="100" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rh4-jG-rqW">
+                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="XAM-7r-HST">
+                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8g6-Nv-L70">
+                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="B9U-en-P7i">
+                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="XAM-7r-HST" firstAttribute="leading" secondItem="1Wl-p3-Uah" secondAttribute="trailing" constant="28" id="3ru-uL-cNv"/>
+                                                <constraint firstItem="rh4-jG-rqW" firstAttribute="top" secondItem="713-tR-ilI" secondAttribute="top" constant="12.5" id="EqE-cy-RFa"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="XAM-7r-HST" secondAttribute="bottom" constant="8" id="Gbg-KA-zc5"/>
+                                                <constraint firstAttribute="trailing" secondItem="rh4-jG-rqW" secondAttribute="trailing" constant="13" id="eM5-ta-M9y"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="fAk-kH-dp8" id="vz0-3M-4a3"/>
+                            <outlet property="delegate" destination="fAk-kH-dp8" id="Lmw-lg-mm5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Lista de jogos" id="sPQ-Hi-3Jx"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLe-uh-Uf6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="-623"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="3DZ-XP-oQQ"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="gamecontroller" catalog="system" width="128" height="80"/>
+        <image name="header-bahianinho" width="644" height="599"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="laptopcomputer.and.iphone" catalog="system" width="128" height="74"/>
         <image name="login-background" width="3448" height="4592"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
