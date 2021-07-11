@@ -13,6 +13,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var botaoEntrar: UIButton!
     @IBOutlet weak var botaoCadastrar: UIButton!
     
+    @IBOutlet weak var circle: UIView!
     
     @IBOutlet weak var campoEmail: UITextField!
     @IBOutlet weak var campoSenha: UITextField!
@@ -22,6 +23,8 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
         botaoCadastrar.layer.cornerRadius = 10
         botaoEntrar.layer.cornerRadius = 10
+        circle.layer.cornerRadius = 15
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
