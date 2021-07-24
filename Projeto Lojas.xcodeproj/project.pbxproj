@@ -16,7 +16,6 @@
 		8B4CED77269567030042A5E2 /* Projeto_LojasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED76269567030042A5E2 /* Projeto_LojasTests.swift */; };
 		8B4CED82269567030042A5E2 /* Projeto_LojasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED81269567030042A5E2 /* Projeto_LojasUITests.swift */; };
 		8BEF45E8269771C3001E9E14 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */; };
-		A7AA9B20269A3738009BE61E /* lookaside.fbsbx.com.png in Resources */ = {isa = PBXBuildFile; fileRef = A7AA9B1F269A3738009BE61E /* lookaside.fbsbx.com.png */; };
 		A7F83408269B9BC20000A7EF /* SecoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F83407269B9BC20000A7EF /* SecoesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		8B4CED81269567030042A5E2 /* Projeto_LojasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_LojasUITests.swift; sourceTree = "<group>"; };
 		8B4CED83269567030042A5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
-		A7AA9B1F269A3738009BE61E /* lookaside.fbsbx.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lookaside.fbsbx.com.png; path = ../../../Downloads/lookaside.fbsbx.com.png; sourceTree = "<group>"; };
 		A7F83407269B9BC20000A7EF /* SecoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +109,6 @@
 				8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */,
 				8B4CED65269566F10042A5E2 /* Main.storyboard */,
 				8B4CED68269567020042A5E2 /* Assets.xcassets */,
-				A7AA9B1F269A3738009BE61E /* lookaside.fbsbx.com.png */,
 				8B4CED6A269567020042A5E2 /* LaunchScreen.storyboard */,
 				8B4CED6D269567020042A5E2 /* Info.plist */,
 				A7F83407269B9BC20000A7EF /* SecoesTableViewController.swift */,
@@ -241,7 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4CED6C269567020042A5E2 /* LaunchScreen.storyboard in Resources */,
-				A7AA9B20269A3738009BE61E /* lookaside.fbsbx.com.png in Resources */,
 				8B4CED69269567020042A5E2 /* Assets.xcassets in Resources */,
 				8B4CED67269566F10042A5E2 /* Main.storyboard in Resources */,
 			);
