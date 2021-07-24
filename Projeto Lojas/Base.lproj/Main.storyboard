@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2kj-DB-vbl">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -22,7 +22,7 @@
                             <tableViewSection id="In3-xc-yfi">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="0Ie-gK-qUC">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Ie-gK-qUC" id="ri1-g1-Pvu">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -52,18 +52,18 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Sl6-5z-mYY">
-                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <rect key="frame" x="380.33333333333331" y="14.666666666666661" width="20.666666666666686" height="17.333333333333339"/>
                                                     <color key="tintColor" systemColor="systemRedColor"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="LRV-IA-dKs">
-                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <rect key="frame" x="118" y="60.666666666666664" width="69.333333333333314" height="20.333333333333336"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="h2G-7I-Jmn">
-                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <rect key="frame" x="0.0" y="1.6666666666666643" width="28" height="17.333333333333336"/>
                                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xGw-ia-Y7h">
-                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <rect key="frame" x="42" y="2.3333333333333313" width="27.333333333333329" height="15.666666666666668"/>
                                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </imageView>
                                                     </subviews>
@@ -81,7 +81,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="GPg-hI-cdH">
-                                        <rect key="frame" x="0.0" y="124.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="124.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GPg-hI-cdH" id="kv6-Ff-a9v">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -111,18 +111,18 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZK5-Nx-eTN">
-                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <rect key="frame" x="380.33333333333331" y="14.666666666666661" width="20.666666666666686" height="17.333333333333339"/>
                                                     <color key="tintColor" systemColor="systemRedColor"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="1Fg-bh-tbt">
-                                                    <rect key="frame" x="118" y="61" width="64.5" height="20"/>
+                                                    <rect key="frame" x="118" y="60.666666666666664" width="64" height="20.333333333333336"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="printer.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="d80-hO-0gn">
-                                                            <rect key="frame" x="0.0" y="0.0" width="23" height="20"/>
+                                                            <rect key="frame" x="0.0" y="0.33333333333333215" width="22.666666666666668" height="20"/>
                                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bLH-Kq-ki8">
-                                                            <rect key="frame" x="37" y="2" width="27.5" height="16"/>
+                                                            <rect key="frame" x="36.666666666666657" y="2.3333333333333313" width="27.333333333333329" height="15.666666666666668"/>
                                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </imageView>
                                                     </subviews>
@@ -140,7 +140,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="GKR-GP-mZi">
-                                        <rect key="frame" x="0.0" y="224.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="224.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GKR-GP-mZi" id="FkP-CR-t89">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -170,18 +170,18 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hfh-md-Pdi">
-                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <rect key="frame" x="380.33333333333331" y="14.666666666666661" width="20.666666666666686" height="17.333333333333339"/>
                                                     <color key="tintColor" systemColor="systemRedColor"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="1lU-fd-2x5">
-                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <rect key="frame" x="118" y="60.666666666666664" width="69.333333333333314" height="20.333333333333336"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VIA-bN-uJd">
-                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <rect key="frame" x="0.0" y="1.6666666666666643" width="28" height="17.333333333333336"/>
                                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="T1M-Qg-IMC">
-                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <rect key="frame" x="42" y="2.3333333333333313" width="27.333333333333329" height="15.666666666666668"/>
                                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </imageView>
                                                     </subviews>
@@ -243,10 +243,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5rN-gW-A21">
-                                <rect key="frame" x="145" y="94" width="124" height="124"/>
+                                <rect key="frame" x="145" y="94" width="124" height="124.33333333333331"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="r6y-4t-DMM">
-                                        <rect key="frame" x="20" y="21.5" width="84" height="82.5"/>
+                                        <rect key="frame" x="20" y="21.666666666666664" width="84" height="82.333333333333343"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
                                     </imageView>
                                 </subviews>
@@ -420,9 +420,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I6W-Mz-48N">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I6W-Mz-48N">
                                 <rect key="frame" x="136" y="88" width="124" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xzX-hF-IpW">
                                         <rect key="frame" x="20" y="22" width="87" height="82"/>
@@ -451,6 +450,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qQh-M0-94t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qQh-M0-94t" firstAttribute="trailing" secondItem="I6W-Mz-48N" secondAttribute="trailing" constant="20" id="kjH-D5-q1f"/>
+                            <constraint firstItem="I6W-Mz-48N" firstAttribute="top" secondItem="qQh-M0-94t" secondAttribute="top" constant="30" id="qya-O4-5mc"/>
+                            <constraint firstItem="I6W-Mz-48N" firstAttribute="leading" secondItem="qQh-M0-94t" secondAttribute="leading" constant="20" id="x1y-wM-1dF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9yb-a6-Y83" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -553,7 +557,7 @@
                             <tableViewSection id="2rC-zX-tOa">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Bt3-i5-GCy">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bt3-i5-GCy" id="bwz-am-3Nu">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -583,18 +587,18 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lae-iv-5FS">
-                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <rect key="frame" x="380.33333333333331" y="14.666666666666661" width="20.666666666666686" height="17.333333333333339"/>
                                                     <color key="tintColor" systemColor="systemRedColor"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="gLc-OC-YMB">
-                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <rect key="frame" x="118" y="60.666666666666664" width="69.333333333333314" height="20.333333333333336"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1xN-VW-6JC">
-                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <rect key="frame" x="0.0" y="1.6666666666666643" width="28" height="17.333333333333336"/>
                                                             <color key="tintColor" systemColor="systemRedColor"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="227-Lt-sVS">
-                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <rect key="frame" x="42" y="2.3333333333333313" width="27.333333333333329" height="15.666666666666668"/>
                                                             <color key="tintColor" systemColor="systemRedColor"/>
                                                         </imageView>
                                                     </subviews>
@@ -609,7 +613,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="ZtU-h1-hso">
-                                        <rect key="frame" x="0.0" y="124.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="124.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZtU-h1-hso" id="4gk-OD-GDA">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -639,18 +643,18 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wDG-qa-bJI">
-                                                    <rect key="frame" x="380.5" y="14" width="20.5" height="17.5"/>
+                                                    <rect key="frame" x="380.33333333333331" y="14.666666666666661" width="20.666666666666686" height="17.333333333333339"/>
                                                     <color key="tintColor" systemColor="systemRedColor"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Y2S-vo-FgP">
-                                                    <rect key="frame" x="118" y="61" width="69.5" height="20"/>
+                                                    <rect key="frame" x="118" y="60.666666666666664" width="69.333333333333314" height="20.333333333333336"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Pgl-Cb-mkL">
-                                                            <rect key="frame" x="0.0" y="1" width="28" height="17.5"/>
+                                                            <rect key="frame" x="0.0" y="1.6666666666666643" width="28" height="17.333333333333336"/>
                                                             <color key="tintColor" systemColor="systemRedColor"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AC9-7M-eTU">
-                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <rect key="frame" x="42" y="2.3333333333333313" width="27.333333333333329" height="15.666666666666668"/>
                                                             <color key="tintColor" systemColor="systemRedColor"/>
                                                         </imageView>
                                                     </subviews>
@@ -690,14 +694,14 @@
                             <tableViewSection id="6cH-ro-Oh7">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Vso-SV-A9e">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vso-SV-A9e" id="E3T-xz-HUw">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Seção de jogos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPg-W5-5kS">
-                                                    <rect key="frame" x="47" y="11" width="102.5" height="21"/>
+                                                    <rect key="frame" x="47.000000000000007" y="11" width="102.66666666666669" height="21"/>
                                                     <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <color key="textColor" systemColor="systemBackgroundColor"/>
@@ -725,14 +729,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Jwq-op-a7F">
-                                        <rect key="frame" x="0.0" y="124.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="124.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jwq-op-a7F" id="DQe-oI-nro">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Seção de Mercado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOd-4D-N3p">
-                                                    <rect key="frame" x="47" y="11" width="124.5" height="21"/>
+                                                    <rect key="frame" x="47.000000000000007" y="11" width="124.66666666666669" height="21"/>
                                                     <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <color key="textColor" systemColor="systemBackgroundColor"/>
@@ -786,14 +790,14 @@
                             <tableViewSection id="Nvu-m7-25r">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="vdL-1G-CQU">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vdL-1G-CQU" id="GXP-fx-Tma">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OHc-u9-J4t">
-                                                    <rect key="frame" x="364" y="14" width="37" height="31"/>
+                                                    <rect key="frame" x="364" y="14.666666666666661" width="37" height="30.333333333333339"/>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="37" id="2eb-0I-Tim"/>
@@ -801,7 +805,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="4Mp-Ae-a12">
-                                                    <rect key="frame" x="319" y="15" width="37" height="33.5"/>
+                                                    <rect key="frame" x="319" y="15" width="37" height="33.666666666666664"/>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="33.5" id="Lk3-yU-m7u"/>
@@ -825,7 +829,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="5FC-OE-E5I">
-                                        <rect key="frame" x="0.0" y="124.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="124.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5FC-OE-E5I" id="Qif-qn-4Ar">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -846,7 +850,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="p7o-zj-Ax0">
-                                        <rect key="frame" x="0.0" y="224.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="224.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p7o-zj-Ax0" id="xGD-73-afn">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -882,7 +886,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="mm5-Th-ioj">
-                                        <rect key="frame" x="0.0" y="324.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="324.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mm5-Th-ioj" id="wGB-vt-5bl">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -913,7 +917,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="ALV-AS-h5f">
-                                        <rect key="frame" x="0.0" y="424.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="424.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ALV-AS-h5f" id="cxI-AL-yvH">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -958,7 +962,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="otr-Zg-djg">
-                                        <rect key="frame" x="0.0" y="524.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="524.33333396911621" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="otr-Zg-djg" id="Cvt-Vq-XvF">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
