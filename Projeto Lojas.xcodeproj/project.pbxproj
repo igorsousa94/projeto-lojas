@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A68D6626AD255A00E37D1A /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A68D6526AD255A00E37D1A /* CadastroViewController.swift */; };
 		8B4CED60269566F10042A5E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED5F269566F10042A5E2 /* AppDelegate.swift */; };
 		8B4CED62269566F10042A5E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED61269566F10042A5E2 /* SceneDelegate.swift */; };
 		8B4CED64269566F10042A5E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED63269566F10042A5E2 /* LoginViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24A68D6526AD255A00E37D1A /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		8B4CED5C269566F10042A5E2 /* Projeto Lojas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto Lojas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4CED5F269566F10042A5E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B4CED61269566F10042A5E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		8B4CED5E269566F10042A5E2 /* Projeto Lojas */ = {
 			isa = PBXGroup;
 			children = (
+				24A68D6526AD255A00E37D1A /* CadastroViewController.swift */,
 				8B4CED5F269566F10042A5E2 /* AppDelegate.swift */,
 				8B4CED61269566F10042A5E2 /* SceneDelegate.swift */,
 				8B4CED63269566F10042A5E2 /* LoginViewController.swift */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4CED64269566F10042A5E2 /* LoginViewController.swift in Sources */,
+				24A68D6626AD255A00E37D1A /* CadastroViewController.swift in Sources */,
 				8B4CED60269566F10042A5E2 /* AppDelegate.swift in Sources */,
 				8BEF45E8269771C3001E9E14 /* PerfilViewController.swift in Sources */,
 				A7F83408269B9BC20000A7EF /* SecoesTableViewController.swift in Sources */,
