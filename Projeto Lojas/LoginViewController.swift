@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
             //navegar proxima tela
             
             let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-            let perfilVC = storyBoard.instantiateViewController(withIdentifier: "PerfilViewControllerID")
+            let perfilVC = storyBoard.instantiateViewController(withIdentifier: "PerfilViewController")
             self.navigationController?.setViewControllers([perfilVC], animated: true)
             return
         }
