@@ -112,5 +112,36 @@ class CadastroViewController: UIViewController {
     }
     
     
+    // É chamada toda vez que a tela vai ser apresentada ao usuario
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("CADASTRO viewWillAppear")
+    }
+    
+    // É chamada toda vez que a tela FOI ser apresentada ao usuario.
+    // É chamada logo após o método viewWillAppear
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("CADASTRO viewDidAppear")
+    }
+
+    // MARK - Descartando a tela
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("CADASTRO viewWillDisappear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("CADASTRO viewDidDisappear")
+    }
+    
+    deinit {
+        print("CADASTRO deinit")
+    }
+
+    @IBAction func fecharCadastro() {
+        self.dismiss(animated: true)
+    }
     
 }
