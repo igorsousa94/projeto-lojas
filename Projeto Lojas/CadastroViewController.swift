@@ -139,7 +139,7 @@ class CadastroViewController: UIViewController {
     deinit {
         print("CADASTRO deinit")
     }
-
+//    
     @IBAction func fecharCadastro() {
         self.dismiss(animated: true)
     }
