@@ -14,10 +14,5 @@ class PerfilViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         quadradoBranco.layer.cornerRadius = 10
-
-   
-    }
-    
-    
-    
+    }  
 }
