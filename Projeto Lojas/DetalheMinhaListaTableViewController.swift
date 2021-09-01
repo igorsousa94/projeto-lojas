@@ -9,11 +9,8 @@ import UIKit
 
 class DetalheMinhaListaTableViewController: UITableViewController {
 
-    @IBOutlet weak var logoDaLoja: UIView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        logoDaLoja.layer.cornerRadius = 6
     }
 
 }

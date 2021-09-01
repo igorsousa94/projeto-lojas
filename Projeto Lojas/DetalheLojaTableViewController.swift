@@ -15,6 +15,28 @@ class DetalheLojaTableViewController: UITableViewController {
         super.viewDidLoad()
     }
     
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        var identify = "celulaLojasCopia"
+        if indexPath.row % 2 == 0 {
+            identify = "celulaLojas"
+        }
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: identify, for: indexPath)
+
+        // Configure the cell...
+
+        return cell
+    }
+    
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         return header
     }
