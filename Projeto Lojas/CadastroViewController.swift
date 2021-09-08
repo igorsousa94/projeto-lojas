@@ -32,7 +32,7 @@ struct structRetornoOK: Codable {
 }
 
 
-class CadastroViewController: UIViewController {
+class CadastroViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var botaoCadastrar: UIButton!
     @IBOutlet weak var fechar: UIImageView!
     
@@ -49,6 +49,16 @@ class CadastroViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         botaoCadastrar.layer.cornerRadius = 10
+        campoTelefone.delegate = self
+        campoIdade.delegate = self
+    }
+    
+    //MARK:- UITextFieldDelegate
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        let permitirCaracteresSet = CharacterSet.decimalDigits
+        let tipoCaracteres = CharacterSet(charactersIn: string)
+        return permitirCaracteresSet.isSuperset(of: tipoCaracteres)
     }
     
     @IBAction func executarCadastro(_ sender: Any) {
