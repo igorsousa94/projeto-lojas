@@ -14,7 +14,7 @@ class PerfilViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        quadradoBranco.layer.cornerRadius = 10
+       
         var mainViewController:LoginViewController?
                print("CHEGUEI NA TELA DE PERFIL")
                print(self.teste)
