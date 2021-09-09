@@ -17,6 +17,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var campoEmail: UITextField!
     @IBOutlet weak var campoSenha: UITextField!
+    var retorno: Usuario? = nil;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,61 +34,71 @@ class LoginViewController: UIViewController {
         fundoLogoRedondo.layer.cornerRadius =
             fundoLogoRedondo.frame.height / 2
     }
+    
+    func navegar(){
+          let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+          let perfilVC = storyBoard.instantiateViewController(withIdentifier: "PerfilViewController")
+          let destinationVC = perfilVC as! PerfilViewController
+          destinationVC.teste = self.retorno
+          self.navigationController?.setViewControllers([destinationVC], animated: true)
+          return
+      }
+
 
     @IBAction func executarLogin(_ sender: Any) {
         
         //valida email e senha e executa proxima tela
-        if let emailUsuario = campoEmail.text,
-           !emailUsuario.isEmpty,
-           let senhaUsuario = campoSenha.text,
-           !senhaUsuario.isEmpty {
-            //navegar proxima tela
-            
-            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-            let perfilVC = storyBoard.instantiateViewController(withIdentifier: "PerfilViewController")
-            self.navigationController?.setViewControllers([perfilVC], animated: true)
-            return
-        }
-        
-        //email ou senha invalido, monta msg erro
-        var mensagemErro = "O campo "
-        if let emailUsuario = campoEmail.text,
-           !emailUsuario.isEmpty {
-            mensagemErro += "senha "
-        } else {
-            if let senhaUsuario = campoSenha.text,
-                !senhaUsuario.isEmpty {
-                mensagemErro += "email "
-            } else {
-                mensagemErro += "email e senha "
-            }
-        }
-        mensagemErro += "está vazio."
-        
-        
-        //apresenta msg erro
-        //cria alerta de erro
-        let alertaErro = UIAlertController(
-                                title: "Erro",
-                                message: mensagemErro,
-                                preferredStyle: .alert
-        )
-        //cria acao para alerta do erro
-        let acaoOk = UIAlertAction(
-            title: "OK",
-            style: UIAlertAction.Style.default,
-            handler: nil
-        )
-        
-        //add acao no alerta
-        alertaErro.addAction(acaoOk)
-        
-        //apresenta alerta
-        present(
-            alertaErro,
-            animated: true,
-            completion: nil
-        )
+               if let emailUsuario = campoEmail.text,
+                  !emailUsuario.isEmpty,
+                  let senhaUsuario = campoSenha.text,
+                  !senhaUsuario.isEmpty {
+                  
+                   let urlEndPoint = "https://projeto-lojas-tz4vp.ondigitalocean.app/api/usuario/login"
+                          guard let url = URL(string: urlEndPoint) else {
+                            return
+                          }
+                         
+                          var request = URLRequest(url: url)
+                          request.httpMethod = "POST"
+                          let usuario = Usuario(email: campoEmail.text, senha: campoSenha.text)
+                          let encoder = JSONEncoder()
+                          let usuarioData =  try? encoder.encode(usuario)
+                          request.setValue("application/json", forHTTPHeaderField: "Content-type")
+                          request.httpBody = usuarioData
+                         
+                         let task = URLSession.shared.dataTask(with: request){ data, urlResponse, erro in
+                             guard let statusCode = (urlResponse as? HTTPURLResponse)?.statusCode,
+                                   statusCode == 200 && statusCode < 300,
+                                  
+                             let data = data else{
+                                 return
+                             }
+                           print("AQUIIII")
+                           let decoder = JSONDecoder()
+                           let usuario =  try? decoder.decode(Usuario.self, from: data)
+                           let str = String(decoding: data, as: UTF8.self)
+                           self.retorno = usuario;
+                           print("BODY \n \(str)")
+                           print("BODY \n \(self.retorno)")
+                           DispatchQueue.main.async {
+                               self.navegar()
+                           }
+                         
+               
+                           
+                         }
+                         
+                   task.resume()
+                  
+                  
+               }
     }
     
+}
+struct Usuario: Codable {
+        var email: String?
+        var senha: String?
+        var telefone: String?
+        var nome: String?
+        
 }
