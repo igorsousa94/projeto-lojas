@@ -22,6 +22,9 @@
 		8BDE228D26DF2F3400B8DA91 /* CirculoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE228C26DF2F3400B8DA91 /* CirculoView.swift */; };
 		8BEF45E8269771C3001E9E14 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */; };
 		A7F83408269B9BC20000A7EF /* SecoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F83407269B9BC20000A7EF /* SecoesTableViewController.swift */; };
+		AC06012326ED807700C7D11A /* ProdutoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06012226ED807700C7D11A /* ProdutoTableViewCell.swift */; };
+		AC06012526EDA78F00C7D11A /* Servico.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06012426EDA78F00C7D11A /* Servico.swift */; };
+		AC06012726EDA86C00C7D11A /* LojaTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06012626EDA86C00C7D11A /* LojaTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		8BDE228C26DF2F3400B8DA91 /* CirculoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculoView.swift; sourceTree = "<group>"; };
 		8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		A7F83407269B9BC20000A7EF /* SecoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoesTableViewController.swift; sourceTree = "<group>"; };
+		AC06012226ED807700C7D11A /* ProdutoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoTableViewCell.swift; sourceTree = "<group>"; };
+		AC06012426EDA78F00C7D11A /* Servico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servico.swift; sourceTree = "<group>"; };
+		AC06012626EDA86C00C7D11A /* LojaTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LojaTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 				8BD4E05626DDAB0100C5E676 /* DetalheLojaTableViewController.swift */,
 				8BDE228726DF295F00B8DA91 /* ListaLojasTableViewController.swift */,
 				8BDE228C26DF2F3400B8DA91 /* CirculoView.swift */,
+				AC06012226ED807700C7D11A /* ProdutoTableViewCell.swift */,
+				AC06012426EDA78F00C7D11A /* Servico.swift */,
+				AC06012626EDA86C00C7D11A /* LojaTableView.swift */,
 			);
 			path = "Projeto Lojas";
 			sourceTree = "<group>";
@@ -279,16 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC06012726EDA86C00C7D11A /* LojaTableView.swift in Sources */,
 				8B4CED64269566F10042A5E2 /* LoginViewController.swift in Sources */,
 				24A68D6626AD255A00E37D1A /* CadastroViewController.swift in Sources */,
 				8B51FE2626D8673F004AF481 /* DetalheMinhaListaTableViewController.swift in Sources */,
 				8BD4E05726DDAB0200C5E676 /* DetalheLojaTableViewController.swift in Sources */,
 				8B4CED60269566F10042A5E2 /* AppDelegate.swift in Sources */,
 				8BDE228826DF295F00B8DA91 /* ListaLojasTableViewController.swift in Sources */,
+				AC06012326ED807700C7D11A /* ProdutoTableViewCell.swift in Sources */,
 				8BDE228D26DF2F3400B8DA91 /* CirculoView.swift in Sources */,
 				8BEF45E8269771C3001E9E14 /* PerfilViewController.swift in Sources */,
 				A7F83408269B9BC20000A7EF /* SecoesTableViewController.swift in Sources */,
 				8B4CED62269566F10042A5E2 /* SceneDelegate.swift in Sources */,
+				AC06012526EDA78F00C7D11A /* Servico.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
