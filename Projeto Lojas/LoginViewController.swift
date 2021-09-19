@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Firebase
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var fundoLogoRedondo: UIView!
@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var campoEmail: UITextField!
     @IBOutlet weak var campoSenha: UITextField!
-    var retorno: Usuario? = nil;
+    var auth:Auth?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,72 +33,35 @@ class LoginViewController: UIViewController {
         fundoLogoRedondo.clipsToBounds = true
         fundoLogoRedondo.layer.cornerRadius =
             fundoLogoRedondo.frame.height / 2
+        self.auth = Auth.auth();
     }
     
     func navegar(){
-          let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-          let perfilVC = storyBoard.instantiateViewController(withIdentifier: "PerfilViewController")
-          let destinationVC = perfilVC as! PerfilViewController
-          destinationVC.teste = self.retorno
-          self.navigationController?.setViewControllers([destinationVC], animated: true)
-          return
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                let perfilVC = storyBoard.instantiateViewController(withIdentifier: "PerfilViewController")
+                let destinationVC = perfilVC as! PerfilViewController
+                self.navigationController?.setViewControllers([destinationVC], animated: true)
+                return
       }
 
 
     @IBAction func executarLogin(_ sender: Any) {
-        
-        //valida email e senha e executa proxima tela
-               if let emailUsuario = campoEmail.text,
-                  !emailUsuario.isEmpty,
-                  let senhaUsuario = campoSenha.text,
-                  !senhaUsuario.isEmpty {
-                  
-                   let urlEndPoint = "https://projeto-lojas-tz4vp.ondigitalocean.app/api/usuario/login"
-                          guard let url = URL(string: urlEndPoint) else {
-                            return
-                          }
-                         
-                          var request = URLRequest(url: url)
-                          request.httpMethod = "POST"
-                          let usuario = Usuario(email: campoEmail.text, senha: campoSenha.text)
-                          let encoder = JSONEncoder()
-                          let usuarioData =  try? encoder.encode(usuario)
-                          request.setValue("application/json", forHTTPHeaderField: "Content-type")
-                          request.httpBody = usuarioData
-                         
-                         let task = URLSession.shared.dataTask(with: request){ data, urlResponse, erro in
-                             guard let statusCode = (urlResponse as? HTTPURLResponse)?.statusCode,
-                                   statusCode == 200 && statusCode < 300,
-                                  
-                             let data = data else{
-                                 return
-                             }
-                           print("AQUIIII")
-                           let decoder = JSONDecoder()
-                           let usuario =  try? decoder.decode(Usuario.self, from: data)
-                           let str = String(decoding: data, as: UTF8.self)
-                           self.retorno = usuario;
-                           print("BODY \n \(str)")
-                           print("BODY \n \(self.retorno)")
-                           DispatchQueue.main.async {
-                               self.navegar()
-                           }
-                         
-               
-                           
-                         }
-                         
-                   task.resume()
-                  
-                  
-               }
-    }
+        let email: String = self.campoEmail.text ?? ""
+        let senha: String = self.campoSenha.text ?? ""
+        self.auth?.signIn(withEmail: email, password: senha, completion:{ (usuario,error) in
+     
+            if error != nil{
+                print("LOGIN MOLHOU")
+            }else{
+              print("LOGIN DEU BOOOOMMM")
+              print(usuario)
+                self.navegar()
+             // self.navigationController?.setViewControllers(PerfilViewController, animated: true)
+            // self.present(PerfilViewController, animated: true, completion:nil)
+              
+            }
+    })
     
 }
-struct Usuario: Codable {
-        var email: String?
-        var senha: String?
-        var telefone: String?
-        var nome: String?
-        
 }
+

@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		24A68D6626AD255A00E37D1A /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A68D6526AD255A00E37D1A /* CadastroViewController.swift */; };
+		76F5295826F7839B00C34700 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76F5295726F7839B00C34700 /* GoogleService-Info.plist */; };
+		76F5295B26F783E300C34700 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 76F5295A26F783E300C34700 /* FirebaseAuth */; };
 		8B4CED60269566F10042A5E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED5F269566F10042A5E2 /* AppDelegate.swift */; };
 		8B4CED62269566F10042A5E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED61269566F10042A5E2 /* SceneDelegate.swift */; };
 		8B4CED64269566F10042A5E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CED63269566F10042A5E2 /* LoginViewController.swift */; };
@@ -46,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		24A68D6526AD255A00E37D1A /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		76F5295726F7839B00C34700 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B4CED5C269566F10042A5E2 /* Projeto Lojas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto Lojas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4CED5F269566F10042A5E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B4CED61269566F10042A5E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F5295B26F783E300C34700 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +128,7 @@
 				8B4CED61269566F10042A5E2 /* SceneDelegate.swift */,
 				8B4CED63269566F10042A5E2 /* LoginViewController.swift */,
 				8BEF45E7269771C3001E9E14 /* PerfilViewController.swift */,
+				76F5295726F7839B00C34700 /* GoogleService-Info.plist */,
 				8B4CED65269566F10042A5E2 /* Main.storyboard */,
 				8B4CED68269567020042A5E2 /* Assets.xcassets */,
 				8B4CED6A269567020042A5E2 /* LaunchScreen.storyboard */,
@@ -174,6 +179,9 @@
 			dependencies = (
 			);
 			name = "Projeto Lojas";
+			packageProductDependencies = (
+				76F5295A26F783E300C34700 /* FirebaseAuth */,
+			);
 			productName = "Projeto Lojas";
 			productReference = 8B4CED5C269566F10042A5E2 /* Projeto Lojas.app */;
 			productType = "com.apple.product-type.application";
@@ -245,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 8B4CED53269566F10042A5E2;
+			packageReferences = (
+				76F5295926F783E300C34700 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8B4CED5D269566F10042A5E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4CED6C269567020042A5E2 /* LaunchScreen.storyboard in Resources */,
+				76F5295826F7839B00C34700 /* GoogleService-Info.plist in Resources */,
 				8B4CED69269567020042A5E2 /* Assets.xcassets in Resources */,
 				8B4CED67269566F10042A5E2 /* Main.storyboard in Resources */,
 			);
@@ -629,6 +641,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76F5295926F783E300C34700 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76F5295A26F783E300C34700 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76F5295926F783E300C34700 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B4CED54269566F10042A5E2 /* Project object */;
 }
