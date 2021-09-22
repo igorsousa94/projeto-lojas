@@ -1,10 +1,3 @@
-//
-//  LoginViewController.swift
-//  Projeto Lojas
-//
-//  Created by developer on 06/07/21.
-//
-
 import UIKit
 import Firebase
 class LoginViewController: UIViewController {
@@ -36,6 +29,13 @@ class LoginViewController: UIViewController {
         self.auth = Auth.auth();
     }
     
+    func alert(titulo:String, mensagem:String){
+        let alertController: UIAlertController = UIAlertController(title: titulo, message: mensagem, preferredStyle: .alert)
+        let ok:UIAlertAction = UIAlertAction(title: "Ok", style: .cancel , handler: nil)
+        alertController.addAction(ok);
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     func navegar(){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
                 let perfilVC = storyBoard.instantiateViewController(withIdentifier: "PerfilViewController")
@@ -51,17 +51,14 @@ class LoginViewController: UIViewController {
         self.auth?.signIn(withEmail: email, password: senha, completion:{ (usuario,error) in
      
             if error != nil{
-                print("LOGIN MOLHOU")
+                self.alert(titulo: "Opa!", mensagem: "Erro ao efetuar login, favor conferir usuario ou senha.")
             }else{
-              print("LOGIN DEU BOOOOMMM")
               print(usuario)
                 self.navegar()
-             // self.navigationController?.setViewControllers(PerfilViewController, animated: true)
-            // self.present(PerfilViewController, animated: true, completion:nil)
-              
             }
     })
     
 }
 }
+
 

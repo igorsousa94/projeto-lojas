@@ -32,20 +32,32 @@ class CadastroViewController: UIViewController, UITextFieldDelegate {
         self.auth = Auth.auth();
     }
     
- 
+    func alert(titulo:String, mensagem:String){
+          let alertController: UIAlertController = UIAlertController(title: titulo, message: mensagem, preferredStyle: .alert)
+          let ok:UIAlertAction = UIAlertAction(title: "Ok", style: .cancel , handler: nil)
+          alertController.addAction(ok);
+          self.present(alertController, animated: true, completion: nil)
+      }
+    
     @IBAction func executarCadastro(_ sender: Any) {
         let email: String = self.campoEmail.text ?? ""
         let senha: String = self.campoSenha.text ?? ""
-        self.auth?.createUser(withEmail: email, password: senha, completion: {
-            (result,error ) in
-            
-            if error != nil {
-                print("DEU MERDAA!!!!!!")
-            }else{
-                print("VOAMOOOOOOOSSS")
-                print(result)
-            }
-        })
+        if (self.campoSenha.text == "" || self.campoEmail.text  == "" || self.campoNome.text  == "" || self.campoIdade.text  == "" || self.campoTelefone.text == ""){
+            self.alert(titulo: "Opa!", mensagem: "É necessário preencher todos os campos")
+        }else{
+            self.auth?.createUser(withEmail: email, password: senha, completion: {
+                (result,error ) in
+                
+                if error != nil {
+                    self.alert(titulo: "Opa!", mensagem: "Erro ao cadastrar, favor conferir todos os campos")
+                }else{
+                    self.alert(titulo: "Eba", mensagem: "Cadastro efetuado com sucesso!")
+                    print("VOAMOOOOOOOSSS")
+                    print(result)
+                }
+            })
+        }
+    
     }
     
   
