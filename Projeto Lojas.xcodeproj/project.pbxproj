@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241566B0270E802B00627D09 /* MapaLojaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241566AF270E802B00627D09 /* MapaLojaViewController.swift */; };
 		24A68D6626AD255A00E37D1A /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A68D6526AD255A00E37D1A /* CadastroViewController.swift */; };
 		76F5295826F7839B00C34700 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76F5295726F7839B00C34700 /* GoogleService-Info.plist */; };
 		76F5295B26F783E300C34700 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 76F5295A26F783E300C34700 /* FirebaseAuth */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241566AF270E802B00627D09 /* MapaLojaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaLojaViewController.swift; sourceTree = "<group>"; };
 		24A68D6526AD255A00E37D1A /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		76F5295726F7839B00C34700 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B4CED5C269566F10042A5E2 /* Projeto Lojas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto Lojas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +143,7 @@
 				AC06012226ED807700C7D11A /* ProdutoTableViewCell.swift */,
 				AC06012426EDA78F00C7D11A /* Servico.swift */,
 				AC06012626EDA86C00C7D11A /* LojaTableView.swift */,
+				241566AF270E802B00627D09 /* MapaLojaViewController.swift */,
 			);
 			path = "Projeto Lojas";
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				8BD4E05726DDAB0200C5E676 /* DetalheLojaTableViewController.swift in Sources */,
 				8B4CED60269566F10042A5E2 /* AppDelegate.swift in Sources */,
 				8BDE228826DF295F00B8DA91 /* ListaLojasTableViewController.swift in Sources */,
+				241566B0270E802B00627D09 /* MapaLojaViewController.swift in Sources */,
 				AC06012326ED807700C7D11A /* ProdutoTableViewCell.swift in Sources */,
 				8BDE228D26DF2F3400B8DA91 /* CirculoView.swift in Sources */,
 				8BEF45E8269771C3001E9E14 /* PerfilViewController.swift in Sources */,

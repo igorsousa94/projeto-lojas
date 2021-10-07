@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2kj-DB-vbl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2kj-DB-vbl">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -378,7 +378,7 @@
                             <tableViewSection id="2rC-zX-tOa">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Bt3-i5-GCy">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bt3-i5-GCy" id="bwz-am-3Nu">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -401,7 +401,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inL-VI-PVT">
-                                                    <rect key="frame" x="118" y="20" width="99.5" height="20.5"/>
+                                                    <rect key="frame" x="118" y="20" width="99" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -418,7 +418,7 @@
                                                             <color key="tintColor" systemColor="systemRedColor"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="227-Lt-sVS">
-                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <rect key="frame" x="42" y="1.5" width="27.5" height="16"/>
                                                             <color key="tintColor" systemColor="systemRedColor"/>
                                                         </imageView>
                                                     </subviews>
@@ -439,7 +439,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="ZtU-h1-hso">
-                                        <rect key="frame" x="0.0" y="124.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="144.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZtU-h1-hso" id="4gk-OD-GDA">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -462,7 +462,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diD-2c-uxt">
-                                                    <rect key="frame" x="118" y="20" width="99.5" height="20.5"/>
+                                                    <rect key="frame" x="118" y="20" width="99" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -479,7 +479,7 @@
                                                             <color key="tintColor" systemColor="systemRedColor"/>
                                                         </imageView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AC9-7M-eTU">
-                                                            <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                            <rect key="frame" x="42" y="1.5" width="27.5" height="16"/>
                                                             <color key="tintColor" systemColor="systemRedColor"/>
                                                         </imageView>
                                                     </subviews>
@@ -525,7 +525,7 @@
                             <tableViewSection id="6cH-ro-Oh7">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Vso-SV-A9e">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vso-SV-A9e" id="E3T-xz-HUw">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -562,7 +562,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Jwq-op-a7F">
-                                        <rect key="frame" x="0.0" y="124.5" width="414" height="100"/>
+                                        <rect key="frame" x="0.0" y="144.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jwq-op-a7F" id="DQe-oI-nro">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -623,7 +623,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celulaLojas" rowHeight="65" id="MXL-vz-xxB" customClass="ProdutoTableViewCell" customModule="Projeto_Lojas" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="65"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MXL-vz-xxB" id="VCS-lA-2pr">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
@@ -736,6 +736,36 @@
                 </view>
             </objects>
             <point key="canvasLocation" x="900" y="31"/>
+        </scene>
+        <!--Mapa Loja View Controller-->
+        <scene sceneID="Ndz-zc-85G">
+            <objects>
+                <viewController id="e99-IH-8pm" customClass="MapaLojaViewController" customModule="Projeto_Lojas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dT6-dg-gfe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QIc-2X-fGQ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8B8-y1-2Gh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8B8-y1-2Gh" firstAttribute="bottom" secondItem="QIc-2X-fGQ" secondAttribute="bottom" id="97m-Na-Qbp"/>
+                            <constraint firstItem="QIc-2X-fGQ" firstAttribute="leading" secondItem="8B8-y1-2Gh" secondAttribute="leading" id="Ayf-J4-j8A"/>
+                            <constraint firstItem="8B8-y1-2Gh" firstAttribute="trailing" secondItem="QIc-2X-fGQ" secondAttribute="trailing" id="GUL-Yj-p7a"/>
+                            <constraint firstItem="QIc-2X-fGQ" firstAttribute="top" secondItem="8B8-y1-2Gh" secondAttribute="top" id="rBJ-4B-H0w"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sZj-Rt-bjA"/>
+                    <connections>
+                        <outlet property="mapView" destination="QIc-2X-fGQ" id="yXT-AM-hXx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MsI-AV-Oqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1787" y="31"/>
         </scene>
         <!--Minhas Listas-->
         <scene sceneID="AMs-yL-nNI">
@@ -863,7 +893,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celulaLojas" rowHeight="65" id="t6Q-Lj-bst" customClass="ProdutoTableViewCell" customModule="Projeto_Lojas" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="65"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t6Q-Lj-bst" id="EUk-vn-K0p">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
@@ -945,34 +975,43 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header-ricardo" translatesAutoresizingMaskIntoConstraints="NO" id="eg3-cd-2zL">
-                            <rect key="frame" x="90" y="15.5" width="240" height="67"/>
+                            <rect key="frame" x="90" y="-3.5" width="240" height="67"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="67" id="ESf-bW-CLI"/>
                                 <constraint firstAttribute="width" constant="240" id="WEU-Da-bn6"/>
                             </constraints>
                         </imageView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="r90-Bl-dOJ">
-                            <rect key="frame" x="122" y="112.5" width="176" height="38"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giv-XY-TKr">
+                            <rect key="frame" x="170" y="97" width="80" height="50"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="38" id="gQb-BO-m5n"/>
-                                <constraint firstAttribute="width" constant="177" id="kU4-9B-r5T"/>
+                                <constraint firstAttribute="height" constant="50" id="Nyl-X6-dau"/>
+                                <constraint firstAttribute="width" constant="80" id="RNc-Fj-dud"/>
                             </constraints>
-                        </imageView>
+                            <color key="tintColor" systemColor="systemRedColor"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Button" image="mappin.circle.fill" catalog="system">
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </state>
+                            <buttonConfiguration key="configuration" style="plain" image="mappin.circle.fill" catalog="system" title="&gt;">
+                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <segue destination="e99-IH-8pm" kind="show" id="4op-YU-uU5"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <viewLayoutGuide key="safeArea" id="hxh-4D-GjB"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
-                        <constraint firstItem="hxh-4D-GjB" firstAttribute="trailing" secondItem="r90-Bl-dOJ" secondAttribute="trailing" constant="122" id="2z0-of-I2A"/>
-                        <constraint firstItem="r90-Bl-dOJ" firstAttribute="centerX" secondItem="Yj9-8S-aI2" secondAttribute="centerX" id="46x-bW-0v2"/>
+                        <constraint firstItem="giv-XY-TKr" firstAttribute="centerX" secondItem="Yj9-8S-aI2" secondAttribute="centerX" id="3BS-RL-bXN"/>
                         <constraint firstAttribute="trailing" secondItem="SNP-iC-9uJ" secondAttribute="trailing" constant="20" id="4vE-VI-UUe"/>
+                        <constraint firstItem="giv-XY-TKr" firstAttribute="top" secondItem="eg3-cd-2zL" secondAttribute="bottom" constant="33.5" id="78H-JV-i85"/>
+                        <constraint firstItem="SNP-iC-9uJ" firstAttribute="top" secondItem="giv-XY-TKr" secondAttribute="bottom" constant="33.5" id="CQr-FM-rE8"/>
                         <constraint firstItem="LX2-yB-pWE" firstAttribute="top" secondItem="Yj9-8S-aI2" secondAttribute="top" constant="19" id="Cfd-Ur-9VC"/>
-                        <constraint firstItem="r90-Bl-dOJ" firstAttribute="leading" secondItem="hxh-4D-GjB" secondAttribute="leading" constant="122" id="JSO-ou-oa8"/>
                         <constraint firstAttribute="trailing" secondItem="LX2-yB-pWE" secondAttribute="trailing" constant="12" id="Q19-IC-YQu"/>
                         <constraint firstItem="eg3-cd-2zL" firstAttribute="centerX" secondItem="Yj9-8S-aI2" secondAttribute="centerX" id="ZbV-P2-uOM"/>
                         <constraint firstAttribute="bottom" secondItem="SNP-iC-9uJ" secondAttribute="bottom" constant="9" id="hJU-gL-Kca"/>
-                        <constraint firstItem="r90-Bl-dOJ" firstAttribute="top" secondItem="eg3-cd-2zL" secondAttribute="bottom" constant="30" id="jyI-GY-aA6"/>
                         <constraint firstItem="SNP-iC-9uJ" firstAttribute="leading" secondItem="Yj9-8S-aI2" secondAttribute="leading" constant="20" id="nIs-O9-RXV"/>
-                        <constraint firstItem="SNP-iC-9uJ" firstAttribute="top" secondItem="r90-Bl-dOJ" secondAttribute="bottom" constant="30" id="u20-oJ-QJ5"/>
                     </constraints>
                 </view>
             </objects>
@@ -988,7 +1027,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celulaLojaIdentifier" rowHeight="100" id="2WC-72-G5F" customClass="LojaTableViewCell" customModule="Projeto_Lojas" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2WC-72-G5F" id="hMW-3h-t59">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -1011,7 +1050,7 @@
                                             </constraints>
                                         </view>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Casas Bahia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzd-CL-Ail">
-                                            <rect key="frame" x="118" y="20" width="99.5" height="20.5"/>
+                                            <rect key="frame" x="118" y="20" width="99" height="20.5"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -1028,7 +1067,7 @@
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptopcomputer.and.iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BEx-NY-jSt">
-                                                    <rect key="frame" x="42" y="2" width="27.5" height="16"/>
+                                                    <rect key="frame" x="42" y="1.5" width="27.5" height="16"/>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
                                             </subviews>
@@ -1082,6 +1121,7 @@
         <image name="laptopcomputer.and.iphone" catalog="system" width="128" height="74"/>
         <image name="login-background" width="3448" height="4592"/>
         <image name="map" width="145" height="36"/>
+        <image name="mappin.circle.fill" catalog="system" width="128" height="121"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="plus-icon" width="22" height="22"/>
