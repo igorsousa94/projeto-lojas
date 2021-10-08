@@ -5,6 +5,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class LojaTableViewCell: UITableViewCell {
     @IBOutlet weak var logoLoja: UIImageView?
@@ -14,19 +15,16 @@ class LojaTableViewCell: UITableViewCell {
     
     func configure(_ loja: Loja1) {
         if let logoUrlString = loja.logo,
-           let logoUrl = URL(string: logoUrlString),
-           let dadosDaLogo = try? Data(contentsOf: logoUrl) {
-
-            self.logoLoja?.image = UIImage(data: dadosDaLogo)
+           !logoUrlString.isEmpty,
+           let logoUrl = URL(string: logoUrlString) {
+            self.logoLoja?.kf.setImage(with: logoUrl)
         } else {
             self.logoLoja?.isHidden = true
         }
-        self.nomeLoja.text = loja.nome
         
+        self.nomeLoja.text = loja.nome
         self.tipoLojaNotebook?.isHidden = !(loja.tipoDaLoja.computador ?? false)
         self.tipoLojaVideoGame?.isHidden = !(loja.tipoDaLoja.videogame ?? false)
-        
-
     }
 
 }

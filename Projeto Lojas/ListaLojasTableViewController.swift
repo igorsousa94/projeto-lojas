@@ -1,10 +1,10 @@
-
-
 import UIKit
+import NVActivityIndicatorView
 
 class ListaLojasTableViewController: UITableViewController {
     var listaDeLojas:[Loja1] = []
     var idCelulaClicada: String?
+    var loading: NVActivityIndicatorView?
     
     // MARK: - Ciclo de vida da View Controller
     override func viewDidLoad() {
@@ -25,24 +25,33 @@ class ListaLojasTableViewController: UITableViewController {
         
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-
+        //loading
+        loading = NVActivityIndicatorView(
+            frame: self.tableView.frame,
+            type: NVActivityIndicatorType.circleStrokeSpin,
+            color: .red,
+            padding: 100)
+        loading?.startAnimating()
+        self.tableView.addSubview(loading ?? UIView(frame: .zero))
         let task = URLSession.shared.dataTask(with: request) { data, urlResponse, erro in
             guard let statusCode = (urlResponse as? HTTPURLResponse)?.statusCode,
                   statusCode == 200 && statusCode < 300,
                   let data = data else {
+                DispatchQueue.main.async {
+                    self.loading?.stopAnimating()
+                }
                 return
             }
-
-
+            
             let decoder = JSONDecoder()
             let listaDeLojasServidor = try? decoder.decode([Loja1].self, from: data)
-
+            
+            self.listaDeLojas = listaDeLojasServidor ?? []
             DispatchQueue.main.async {
-                self.listaDeLojas = listaDeLojasServidor ?? []
                 self.tableView.reloadData()
+                self.loading?.stopAnimating()
             }
         }
-        
         task.resume()
     }
 
