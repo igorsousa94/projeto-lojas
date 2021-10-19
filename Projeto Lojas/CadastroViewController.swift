@@ -18,6 +18,7 @@ class CadastroViewController: UIViewController, UITextFieldDelegate {
     var msgRetornoAPI = " "
     var auth:Auth?
     
+    //Evento analytics e evento Crashlytics
     //    override func viewDidAppear() {
     //        @IBAction func registrarEventoAnalytics(_sender: Any){
     //            Analytics.logEvent("clique_botao", parameters: [

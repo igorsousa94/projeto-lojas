@@ -8,6 +8,7 @@ class ListaLojasTableViewController: UITableViewController {
     var idCelulaClicada: String?
     var loading: NVActivityIndicatorView?
     
+    //Evento analytics e evento Crashlytics
     //    override func viewDidAppear() {
     //        @IBAction func registrarEventoAnalytics(_sender: Any){
     //            Analytics.logEvent("clique_botao", parameters: [

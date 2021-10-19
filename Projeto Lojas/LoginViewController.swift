@@ -31,6 +31,7 @@ class LoginViewController: UIViewController {
             fundoLogoRedondo.frame.height / 2
         self.auth = Auth.auth();
         
+        //Evento analytics e evento Crashlytics
         //    override func viewDidAppear() {
         //        @IBAction func registrarEventoAnalytics(_sender: Any){
         //            Analytics.logEvent("clique_botao", parameters: [

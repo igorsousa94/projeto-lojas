@@ -13,6 +13,7 @@ class DetalheLojaTableViewController: UITableViewController {
             Servico(titulo: "Troca do plug de carregar", subtitulo: "Samsung"),
             Servico(titulo: "Consertos em geral", subtitulo: nil)]
     
+    //Evento analytics e evento Crashlytics
     //    override func viewDidAppear() {
     //        @IBAction func registrarEventoAnalytics(_sender: Any){
     //            Analytics.logEvent("clique_botao", parameters: [
