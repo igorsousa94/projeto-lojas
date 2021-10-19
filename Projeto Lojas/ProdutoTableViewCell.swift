@@ -1,11 +1,5 @@
-//
-//  ProdutoTableViewCell.swift
-//  Projeto Lojas
-//
-//  Created by Renê Xavier on 04/08/21.
-//
-
 import UIKit
+import Kingfisher
 
 class ProdutoTableViewCell: UITableViewCell {
 

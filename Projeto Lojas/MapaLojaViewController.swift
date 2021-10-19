@@ -1,10 +1,3 @@
-//
-//  MapaLojaViewController.swift
-//  Projeto Lojas
-//
-//  Created by Lidnaldo on 06/10/21.
-//
-
 import UIKit
 import CoreLocation
 import MapKit

@@ -1,5 +1,8 @@
 import UIKit
 import Firebase
+//import FirebaseAnalytics
+//import Crashlytics
+
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var fundoLogoRedondo: UIView!
@@ -27,6 +30,18 @@ class LoginViewController: UIViewController {
         fundoLogoRedondo.layer.cornerRadius =
             fundoLogoRedondo.frame.height / 2
         self.auth = Auth.auth();
+        
+        //    override func viewDidAppear() {
+        //        @IBAction func registrarEventoAnalytics(_sender: Any){
+        //            Analytics.logEvent("clique_botao", parameters: [
+        //                "uuidDevice": idenificadorUnicoCelular,
+        //                AnalyticsParameterItemID:"Botao Tela Inicial"])
+        //        }
+        //        @IBAction func crashApp(_sender: Any){
+        //        Crashlytics.sharedInstance().crash()
+        //    }
+        //        super.viewDidAppear()
+        //    }
     }
     
     func alert(titulo:String, mensagem:String){

@@ -1,8 +1,3 @@
-//
-//  Servico.swift
-//  Projeto Lojas
-//
-
 import Foundation
 
 //{

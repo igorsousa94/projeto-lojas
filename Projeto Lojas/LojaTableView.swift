@@ -1,9 +1,3 @@
-//
-//  LojaTableViewCell.swift
-//  Projeto Lojas
-//
-//
-
 import UIKit
 import Kingfisher
 

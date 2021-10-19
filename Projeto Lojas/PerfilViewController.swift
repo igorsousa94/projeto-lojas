@@ -1,11 +1,6 @@
-//
-//  PerfilViewController.swift
-//  Projeto Lojas
-//
-//  Created by developer on 08/07/21.
-//
-
 import UIKit
+//import FirebaseAnalytics
+//import Crashlytics
 
 class PerfilViewController: UIViewController {
     
@@ -14,6 +9,17 @@ class PerfilViewController: UIViewController {
     @IBOutlet weak var telefone: UILabel!
     @IBOutlet weak var quadradoBranco: UIView!
     
+//    override func viewDidAppear() {
+//        @IBAction func registrarEventoAnalytics(_sender: Any){
+//            Analytics.logEvent("clique_botao", parameters: [
+//                "uuidDevice": idenificadorUnicoCelular,
+//                AnalyticsParameterItemID:"Botao Tela Inicial"])
+//        }
+//        @IBAction func crashApp(_sender: Any){
+//        Crashlytics.sharedInstance().crash()
+//    }
+//        super.viewDidAppear()
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

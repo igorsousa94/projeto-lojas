@@ -20,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Usamos a sua localização para recomendar restaurantes próximos - AlwaysAndWhenInUse description</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Usamos a sua localização para recomendar restaurantes próximos - Sempre descricao</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Usamos a sua localização para recomendar restaurantes próximos - Quando em uso description</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -62,11 +68,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Usamos a sua localização para recomendar restaurantes próximos - AlwaysAndWhenInUse description</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>Usamos a sua localização para recomendar restaurantes próximos - Sempre descricao</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Usamos a sua localização para recomendar restaurantes próximos - Quando em uso description</string>
 </dict>
 </plist>

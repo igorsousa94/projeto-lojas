@@ -1,12 +1,7 @@
-//
-//  CadastroViewController.swift
-//  Projeto Lojas
-//
-//  Created by developer on 24/07/2021.
-//
-
 import UIKit
 import Firebase
+//import FirebaseAnalytics
+//import Crashlytics
 
 
 class CadastroViewController: UIViewController, UITextFieldDelegate {
@@ -22,6 +17,18 @@ class CadastroViewController: UIViewController, UITextFieldDelegate {
     var formularioOk = false
     var msgRetornoAPI = " "
     var auth:Auth?
+    
+    //    override func viewDidAppear() {
+    //        @IBAction func registrarEventoAnalytics(_sender: Any){
+    //            Analytics.logEvent("clique_botao", parameters: [
+    //                "uuidDevice": idenificadorUnicoCelular,
+    //                AnalyticsParameterItemID:"Botao Tela Inicial"])
+    //        }
+    //        @IBAction func crashApp(_sender: Any){
+    //        Crashlytics.sharedInstance().crash()
+    //    }
+    //        super.viewDidAppear()
+    //    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

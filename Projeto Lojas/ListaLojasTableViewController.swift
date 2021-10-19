@@ -1,10 +1,24 @@
 import UIKit
 import NVActivityIndicatorView
+//import FirebaseAnalytics
+//import Crashlytics
 
 class ListaLojasTableViewController: UITableViewController {
     var listaDeLojas:[Loja1] = []
     var idCelulaClicada: String?
     var loading: NVActivityIndicatorView?
+    
+    //    override func viewDidAppear() {
+    //        @IBAction func registrarEventoAnalytics(_sender: Any){
+    //            Analytics.logEvent("clique_botao", parameters: [
+    //                "uuidDevice": idenificadorUnicoCelular,
+    //                AnalyticsParameterItemID:"Botao Tela Inicial"])
+    //        }
+    //        @IBAction func crashApp(_sender: Any){
+    //        Crashlytics.sharedInstance().crash()
+    //    }
+    //        super.viewDidAppear()
+    //    }
     
     // MARK: - Ciclo de vida da View Controller
     override func viewDidLoad() {

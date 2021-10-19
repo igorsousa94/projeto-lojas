@@ -1,10 +1,6 @@
-//
-//  DetalheLojaTableViewController.swift
-//  Projeto Lojas
-//
-
-
 import UIKit
+//import FirebaseAnalytics
+//import Crashlytics
 
 class DetalheLojaTableViewController: UITableViewController {
 
@@ -16,6 +12,18 @@ class DetalheLojaTableViewController: UITableViewController {
             Servico(titulo: "Troca de bateria", subtitulo: "Samsung"),
             Servico(titulo: "Troca do plug de carregar", subtitulo: "Samsung"),
             Servico(titulo: "Consertos em geral", subtitulo: nil)]
+    
+    //    override func viewDidAppear() {
+    //        @IBAction func registrarEventoAnalytics(_sender: Any){
+    //            Analytics.logEvent("clique_botao", parameters: [
+    //                "uuidDevice": idenificadorUnicoCelular,
+    //                AnalyticsParameterItemID:"Botao Tela Inicial"])
+    //        }
+    //        @IBAction func crashApp(_sender: Any){
+    //        Crashlytics.sharedInstance().crash()
+    //    }
+    //        super.viewDidAppear()
+    //    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
